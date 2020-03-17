@@ -1,0 +1,16 @@
+api-version: "1.15"
+name: "SelectorWrapper"
+description: "Wrap commands with a minecraft selector"
+version: "${project.version}"
+main: "io.github.twieteddy.selectorwrapper.SelectorWrapperPlugin"
+database: false
+depend: []
+softdepend: []
+
+author: "Teddy"
+authors: []
+website: "https://twieteddy.github.io"
+
+commands:
+  selectorwrapper:
+    aliases: ["swrap"]
